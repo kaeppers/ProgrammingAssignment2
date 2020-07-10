@@ -5,8 +5,6 @@
 ## function. A matrix that has not been set up this way, will not return a result
 ## when the cacheSolve function is called.
 
-
-
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
   set <- function(y) {
